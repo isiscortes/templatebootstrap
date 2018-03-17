@@ -1,6 +1,13 @@
 .botonAzul{
 	color: white;
 	background-color: #3366ff;
+    display: block;
+    margin: auto;
+}
+
+h1{
+    font-family: 'Roboto Slab', serif;
+    margin: 5% 0%;
 }
 
 h3{
@@ -33,3 +40,24 @@ li a:hover:not(.active) {
     background-color: #111;
 }
 
+.centrar {
+    background-image: url("banner.jpg");
+    width: 1920px;
+    height: 900px;
+    padding: 0px;
+    opacity: 0.7;
+    }
+
+.element{
+    color: #FFFFFF;
+    position: absolute;
+    top: 455px;
+    text-align: center;
+    font-size: 30px;
+}
+
+
+.formulario{
+    margin: 5% 0% ;
+    padding: 5%;
+}
