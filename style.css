@@ -12,10 +12,24 @@ h1{
     text-align: center;
 }
 
+h2{
+    font-family: "Lato", sans-serif;
+    margin-bottom: 2%;
+    margin-top: 20px;
+    text-align: center;
+}
+
 h3{
 	font-family: "Lato", sans-serif;
 	margin-bottom: 10%;
     margin-left: 20%;
+
+}
+
+p{
+    margin-top: 15px;
+    margin-bottom: 10px;
+    text-align: center;
 
 }
 
@@ -72,3 +86,22 @@ ul {
     padding: 0;
     background-color: #DCDCDC;
 }
+.gray{
+    background-color: #DCDCDC;
+    margin-bottom: 25px;
+    padding: 10%;
+
+}
+.body2{
+    margin-bottom: 5%;
+    padding: 0;
+}
+
+.svg-inline--fa{
+    margin-top: 20px;
+    color:  #3366ff;
+    display: block;
+    margin: auto;
+}
+
+
