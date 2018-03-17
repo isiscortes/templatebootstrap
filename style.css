@@ -1,0 +1,26 @@
+
+h1{
+	font-family: 'Asap', sans-serif;
+	margin: 5% 0%;
+	margin-bottom: 10%;
+}
+
+h2{
+	font-family: 'Roboto Slab', serif;
+	margin: 1% 0%;
+	font-size: 40px;
+}
+
+h3{
+	font-family: "Lato", sans-serif;
+	margin: 5% 0%;
+	margin-bottom: 10%;
+}
+
+p{
+	margin-bottom: 5%;
+	text-align: left;
+	font-family: 'Asap', sans-serif;
+}
+
+
