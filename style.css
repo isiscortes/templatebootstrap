@@ -1,14 +1,6 @@
-
-h1{
-	font-family: 'Asap', sans-serif;
-	margin: 5% 0%;
-	margin-bottom: 10%;
-}
-
-h2{
-	font-family: 'Roboto Slab', serif;
-	margin: 1% 0%;
-	font-size: 40px;
+.botonAzul{
+	color: white;
+	background-color: #3366ff;
 }
 
 h3{
@@ -17,10 +9,27 @@ h3{
 	margin-bottom: 10%;
 }
 
-p{
-	margin-bottom: 5%;
-	text-align: left;
-	font-family: 'Asap', sans-serif;
+ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    background-color: #DCDCDC;
 }
 
+li {
+    float: left;
+}
+
+li a {
+    display: block;
+    color: white;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+}
+
+li a:hover:not(.active) {
+    background-color: #111;
+}
 
