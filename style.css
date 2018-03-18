@@ -3,7 +3,7 @@
 	background-color: #3366ff;
     display: block;
     margin: auto;
-
+    float:right;
 }
 
 h1{
@@ -13,95 +13,95 @@ h1{
 }
 
 h2{
+    margin-top: 20%;
+    margin-left: 25%;
+}
+
+h3{
     font-family: "Lato", sans-serif;
     margin-bottom: 2%;
     margin-top: 20px;
     text-align: center;
 }
 
-h3{
+h4{
 	font-family: "Lato", sans-serif;
 	margin-bottom: 10%;
-    margin-left: 20%;
-
+    margin-left: 15%;
 }
 
 p{
     margin-top: 15px;
     margin-bottom: 10px;
     text-align: center;
-
 }
 
 .header {
-    list-style-type: none;
-    margin: 0;
-    padding: 0;
+    margin-bottom: 0;
+    padding: 5px;
     overflow: hidden;
     background-color: #DCDCDC;}
 
-li {
-    float: left;
+.text--left{
+    text-align: left;
 }
 
-li a {
-    display: block;
-    color: white;
-    text-align: center;
-    padding: 14px 16px;
-    text-decoration: none;
+.text--right{
+    text-align: right;
 }
 
-li a:hover:not(.active) {
+button:hover:not(.active) {
     background-color: #111;
 }
 
 .centrar {
     background-image: url("./img/bg-masthead.jpg");
-    width: 100%;
-    height: 1000px;
-    padding: 0px;
+    height: 600px;
     opacity: 0.7;
     background-repeat: no-repeat;
     }
 
 .element{
     color: #FFFFFF;
-    position: absolute;
-    top: 455px;
-    left: 150px;
     font-size: 25px;
 }
 
-
-.formulario{
-    margin: 5% 0% ;
-    padding: 5%;
-
+.texto--alineadoder{
+    margin-left: 20%;
 }
 
-ul {
-    list-style-type: none;
-    margin-left: 25%;
-    padding: 0;
-    background-color: #DCDCDC;
+.bh{
+    margin-right: 20%;
 }
+
+.texto--centrado{
+    margin-top:13%;
+    margin-left: 15%;
+}
+
 .gray{
     background-color: #DCDCDC;
-    margin-bottom: 25px;
-    padding: 10%;
+    padding: 4%;
+}
 
-}
-.body2{
-    margin-bottom: 5%;
-    padding: 0;
-}
 
 .svg-inline--fa{
     margin-top: 20px;
     color:  #3366ff;
     display: block;
     margin: auto;
+    padding: 4%;
 }
 
+.resize--img{
+    width: 100%;
+    height: 100%;
+    padding: 0px;
+}
+
+.columna--imagen{
+    margin-top: 5%;
+    margin-left: 8%;
+    width: 80%;
+}
 

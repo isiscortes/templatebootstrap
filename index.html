@@ -1,61 +1,85 @@
 <!DOCTYPE html>
+
 <html lang="es">
 <head>
 	<meta charset="UTF-8">
 	<title>Template</title>
-	<script defer src= "https://use.fontawesome.com/releases/v5.0.6/js/all.js"></script>
 	<link rel= "stylesheet" href="style.css">
 	<link rel= "stylesheet" href="grid.css">
 	<link rel= "stylesheet" href="normalize.css">
 </head>
 <body>
-	<header>
-		<nav>
-			<ul class="header">
-				<li><h3> StartBootstrap </h3></li>
-				<li style="float:right"><a class="botonAzul" href="#signin">Sign in</a></li>
-			</ul>
+	<header class="row header">
+		<nav class="col-6 text--left">
+				<h4> Start Bootstrap </h4>
+		</nav>
+		<nav class="col-6 text--right">
+			<button class="botonAzul"> Sign In </button>
 		</nav>
 	</header>
 	<section>
 		<div class = "row">
-			<div class="centrar">
-			<div class="element">
-				<h1>Build a landing page for your project or business and generate more leads!</h1>
-				<form class= "formulario">
-					<ul>
-						<li><div>
-							<input placeholder="Enter your email">
-						</div></li>
-						<li><div>
-							<button class="botonAzul">Sign Up</button>
-						</div></li>
-					</ul>
-				</form>
+			<div class=" col-12 centrar"> 
+				<div class=element>
+					<h1 class="texto--centrado">Build a landing page for your project or business and generate more leads!</h1>
+					<input class="texto--alineadoder" placeholder="Enter your email">
+					<button class="botonAzul bh">Sign Up</button>
+				</div>
 			</div>
-		</div>
 		</div>
 	</section>
 	<section class="gray">
-		<div class="row body2">
+		<div class="row ">
 				<div class ="col-4">
 					<i class="fas fa-desktop fa-7x"></i>
-					<h2> Fully Responsive </h2>
+					<h3> Fully Responsive </h3>
 					<p>This theme will look great on any device, no matter the look.</p>
 				</div>
 				<div class ="col-4">
 					<i class="far fa-copy fa-7x"></i>
-					<h2> Bootstrap 4 Ready </h2>
+					<h3> Bootstrap 4 Ready </h3>
 					<p>Featuring the lastest build of the new Bootstrap 4 frameworks.</p>
 				</div>
 				<div class ="col-4">
 					<i class="far fa-check-circle fa-7x"></i>
-					<h2> Easy to Use </h2>
+					<h3> Easy to Use </h3>
 					<p>Ready to use with your own content, or customize. Use source files!</p>
 				</div>
 			</div>
 	</section>
+	<section>
+		<div class = "row">
+			<div class=" col-6">
+				<h2>Fully Responsive Design</h2>
+				<p class="columna--imagen"> When you use a theme by Start Bootstrap you know that the theme will look great on any device. Wethere its home or office people will love it.</p>
+			</div>
+			<div class=" col-6"> 
+				<img class="resize--img" src="./img/bg-showcase-1.jpg">
+			</div>
+	</section>
+	<section>
+		<div class = "row">
+			<div class=" col-6">
+				<img class="resize--img" src="./img/bg-showcase-2.jpg">
+			</div>
+			<div class=" col-6"> 
+				<h2>Updated For Bootstrap4</h2>
+				<p class="columna--imagen"> When you use a theme by Start Bootstrap you know that the theme will look great on any device. Wethere its home or office people will love it.</p>
+			</div>
+	</section>
+	<section>
+		<div class = "row">
+			<div class=" col-6">
+				<h2>Easy to Use and Customize </h2>
+				<p class="columna--imagen"> When you use a theme by Start Bootstrap you know that the theme will look great on any device. Wethere its home or office people will love it.</p>
+			</div>
+			<div class=" col-6">
+				<img class="resize--img" src="./img/bg-showcase-3.jpg">
+			</div>
+		</div>
+	</section>
+	<script defer src= "https://use.fontawesome.com/releases/v5.0.6/js/all.js"></script>
 
-	
 </body>
+
 </html>
