@@ -4,7 +4,14 @@
     display: block;
     margin: auto;
     float:right;
+    border-radius: 12px;
+    padding: 13px 35px; 
+    cursor: pointer;
+    text-align: center;
+    font-size: 18px;
+    font-family: "Lato", sans-serif;
 }
+.botonAzul:hover {background-color: #46a049;}
 
 h1{
     font-family: "Lato", sans-serif;
@@ -26,7 +33,7 @@ h3{
 
 h4{
 	font-family: "Lato", sans-serif;
-	margin-bottom: 10%;
+	margin-top: 1.5%;
     margin-left: 15%;
 }
 
@@ -68,6 +75,10 @@ button:hover:not(.active) {
 
 .texto--alineadoder{
     margin-left: 20%;
+    border-radius: 10px;
+    padding: 13px 180px; 
+    font-size: 18px;
+    font-family: "Lato", sans-serif;
 }
 
 .bh{
@@ -86,7 +97,6 @@ button:hover:not(.active) {
 
 
 .svg-inline--fa{
-    margin-top: 20px;
     color:  #3366ff;
     display: block;
     margin: auto;
@@ -129,4 +139,17 @@ button:hover:not(.active) {
 .texto--newsletter{
     margin-top:10%;
     margin-left: 10%;
+}
+
+
+.bloquefooter{
+    display: inline-block;
+    padding: 20px;
+}
+
+
+footer{
+    background-color: #DCDCDC;  
+    text-align: center; 
+    color: #3366ff;
 }
