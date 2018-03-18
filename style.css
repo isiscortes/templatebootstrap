@@ -111,3 +111,22 @@ button:hover:not(.active) {
     height: 80%;
     margin-left: 8%;
 }
+
+.newsletter {
+    background-image: url("./img/bg-masthead.jpg");
+    background-repeat: no-repeat;
+    height: 400px;
+    background-position:50% 50%;
+    }
+
+.text--testimonials{
+    margin-top: 4%;
+    margin-left: 38%;
+    margin-bottom: 2%;
+    padding: 0.99%;
+}
+
+.texto--newsletter{
+    margin-top:10%;
+    margin-left: 10%;
+}
