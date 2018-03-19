@@ -1,6 +1,6 @@
-.botonAzul{
-	color: white;
-	background-color: #3366ff;
+.boton1{
+    color: white;
+    background-color:   #191970;
     display: block;
     margin: auto;
     float:right;
@@ -10,6 +10,25 @@
     text-align: center;
     font-size: 18px;
     font-family: "Lato", sans-serif;
+    margin-top: 2%;
+
+}
+.boton1:hover {background-color: #46a049;}
+
+.botonAzul{
+    color: white;
+    background-color: #3366ff;
+    display: block;
+    margin: auto;
+    float:right;
+    border-radius: 12px;
+    padding: 13px 35px; 
+    cursor: pointer;
+    text-align: center;
+    font-size: 18px;
+    font-family: "Lato", sans-serif;
+    margin-top: 2%;
+
 }
 .botonAzul:hover {background-color: #46a049;}
 
@@ -32,8 +51,8 @@ h3{
 }
 
 h4{
-	font-family: "Lato", sans-serif;
-	margin-top: 1.5%;
+    font-family: "Lato", sans-serif;
+    margin-top: 1.5%;
     margin-left: 15%;
 }
 
@@ -75,6 +94,7 @@ button:hover:not(.active) {
 
 .texto--alineadoder{
     margin-left: 20%;
+    margin-top: 2%;
     border-radius: 10px;
     padding: 13px 180px; 
     font-size: 18px;
@@ -88,18 +108,11 @@ button:hover:not(.active) {
 .texto--centrado{
     margin-top:13%;
     margin-left: 15%;
+    margin-bottom: 10%;
 }
 
 .gray{
     background-color: #DCDCDC;
-    padding: 4%;
-}
-
-
-.svg-inline--fa{
-    color:  #3366ff;
-    display: block;
-    margin: auto;
     padding: 4%;
 }
 
@@ -142,14 +155,18 @@ button:hover:not(.active) {
 }
 
 
-.bloquefooter{
-    display: inline-block;
-    padding: 20px;
+.svg-inline--fa{
+    color:  #3366ff;
 }
 
 
 footer{
-    background-color: #DCDCDC;  
-    text-align: center; 
-    color: #3366ff;
+	background-color:#E6E6FA;	
+	padding: 20px;
+	text-align: center;	
+}
+
+.bloquefooter{
+    display: inline-block;
+    color:  #3366ff;
 }
